@@ -1,0 +1,13 @@
+# 构建产物
+*.apk
+*.zip
+!app/src/main/assets/*.zip
+release/
+__pycache__/
+.DS_Store
+.idea/
+app/.gradle/
+app/.kotlin/
+app/build/
+app/local.properties
+!app/app/src/main/assets/*.zip

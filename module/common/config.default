@@ -1,0 +1,21 @@
+# ================= Game Shield 配置（默认模板）=================
+# 目标游戏包名（必须与实际一致，可用: gs.sh find-pkg tencent 核对）
+TARGET_PACKAGE=com.tencent.tmdf
+
+# 游戏模式管理的模块: all=除自身与 EXCLUDED_MODULES 外全部；或写空格分隔的模块 id
+MANAGED_MODULES=all
+
+# 永远不管理的模块 id（空格分隔）
+EXCLUDED_MODULES=gs_guard
+
+# 诊断采样间隔（秒）
+DIAG_INTERVAL=2
+
+# 重启后自动恢复诊断会话（1=是 0=否）
+DIAG_RESUME_ON_BOOT=0
+
+# 自动恢复：游戏模式开启超过 N 小时后自动恢复原环境（0=禁用）
+AUTO_RESTORE_HOURS=0
+
+# 日志保留天数
+LOG_KEEP_DAYS=7

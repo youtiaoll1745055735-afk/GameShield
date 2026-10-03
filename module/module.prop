@@ -1,0 +1,6 @@
+id=gs_guard
+name=Game Shield 环境隔离与诊断
+version=v1.0.0
+versionCode=100
+author=GameShield
+description=环境检测 / 游戏兼容模式(模块停用与恢复) / 诊断日志与报告。不绕过反作弊、不修改游戏、不隐藏进程。
